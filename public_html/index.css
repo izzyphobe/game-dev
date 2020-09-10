@@ -1,0 +1,175 @@
+html{
+  --bg1: rgba(146,94,120,1);
+  --bg2: rgba(240,83,101,1);
+  --bg3: rgba(250,188,42,1);
+  --bg4: #A0C558;
+}
+body {
+  background: rgb(146,94,120);
+  background: radial-gradient(circle, var(--bg1) 50%, var(--bg2) 80%, 
+  var(--bg3) 100%); 
+  background-attachment: fixed;
+  color: black;
+  font-family: 'Lexend Exa';
+  font-size: 90%;
+  margin:0%;
+  padding: 0%;
+}
+
+a:hover{
+  color:white!important;
+  background-color: var(--bg2);
+}
+h1{
+  font-family: 'Lexend Tera';
+  color: var(--bg1);
+  font-size: 175%;
+}
+
+h2{
+  font-family: 'Lexend Tera';
+  color: var(--bg2);
+  font-size: 175%;
+}
+h3{
+  font-family: 'Lexend Tera';
+  color: var(--bg3);
+  font-size: 175%;
+}
+a{
+ color: var(--bg2);
+ text-decoration: none;
+}
+
+a:hover{
+ text-decoration: none; 
+}
+
+.text{
+  width: 75%;
+  height: 75%;
+  overflow: hidden;
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.a1{
+  color: var(--bg1);
+}
+
+.a2{
+  color: var(--bg2);
+}
+
+.a3{
+  color: var(--bg3);
+}
+
+.a4{
+  color: var(--bg4);
+}
+
+#headline{
+  background-color: white;
+  margin-left: 15%;
+  margin-right:15%;
+  width:auto;
+  color: black;
+  overflow:hidden;
+}
+
+#bubblewrap{
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+}
+#content{
+  background-color: white;
+  height: 40vw;
+  width: 40vw;
+  border-radius: 50%;
+  margin-left: 5%;
+  margin-top: 5%;
+  float:left;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#bubble1{
+  color: var(--bg2);
+  height:30%;
+  margin-left: 10%;
+  margin-top: 1%;
+  border-radius:50%;
+  background-color: white;
+  width: 30vh;
+  float:left;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#bubble1:hover{
+  background-color: var(--bg1);
+  animation-duration: 200ms;
+}
+
+#bubble1:hover h1{
+  color:white;
+}
+
+#bubble2{
+  color: var(--bg2);
+  height:30%;
+  margin-right: 10%;
+  margin-top: 67vh;
+  border-radius:50%;
+  background-color: white;
+  width: 30vh;
+  float:right;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#bubble2 a{
+  color: var(--bg2);
+}
+
+#bubble2:hover{
+  background-color: var(--bg3);
+}
+
+#bubble2:hover h3{
+  color: white;
+}
+
+
+
+#songMenu{
+  display:none;
+}
+
+#songlist{
+  align-items: center;
+  text-align: center;
+  line-height: 10%;
+}
+
+#acc path{
+  margin-left: 10%;
+  margin-bottom: 1%;
+  background-image: "images/acc.svg";
+  fill: white;
+  
+  height: 10vh;
+  width:10vh;
+  position: absolute;
+  display: block;
+}
